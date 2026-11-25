@@ -1,0 +1,21 @@
+# Large WESAD sensor data; keep local and download separately when needed.
+WESAD/*/*.pkl
+WESAD/*/*_E4_Data.zip
+WESAD/*/*_respiban.txt
+
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Test, type-checker, and linter caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editor and operating-system temporary files
+.ipynb_checkpoints/
+.DS_Store
+*~
+.~*#
